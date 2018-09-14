@@ -1,13 +1,13 @@
 # Sauce Labs Demonstration
 
-* [What is Sauce Labs?](##what-is-Sauce-Labs "What is Sauce Labs?")
-* [Which problems does it solve for us?](##Which-problems-does-it-solve-for-us "Which problems does it solve for us?")
-* [How will it help us?](##How-will-it-help-us "How will it help us?")
-* [What features does it offer?](##What-features-does-it-offer "What features does it offer?")
-* [When should you run tests with it?](##When-should-you-run-tests-with-it "When should you run tests with it?")
-* [How do you run tests with it?](##How-do-you-run-tests-with-it "How do you run tests with it?")
-* [Example Sauce Lab Projects](##Example-Sauce-Labs-Projects "Example Sauce Labs Projects") - Sauce Labs with Polymer and Selenium code examples!
-* [Sauce Labs Resources](##Sauce-Labs-Resources "Sauce Labs Resources")
+* [What is Sauce Labs?](##what-is-sauce-labs "What is Sauce Labs?")
+* [Which problems does it solve for us?](##which-problems-does-it-solve-for-us "Which problems does it solve for us?")
+* [How will it help us?](##how-will-it-help-us "How will it help us?")
+* [What features does it offer?](##what-features-does-it-offer "What features does it offer?")
+* [When should you run tests with it?](##when-should-you-run-tests-with-it "When should you run tests with it?")
+* [How do you run tests with it?](##how-do-you-run-tests-with-it "How do you run tests with it?")
+* [Example Sauce Lab Projects](##example-sauce-labs-projects "Example Sauce Labs Projects") - Sauce Labs with Polymer and Selenium code examples!
+* [Sauce Labs Resources](##sauce-labs-resources "Sauce Labs Resources")
 
 ---
 ## What is Sauce Labs?
@@ -69,18 +69,18 @@ Sauce Labs is a continuous cloud testing platform for web and mobile application
 
 The four most common ways to run tests via Sauce Labs.
 
-1. [Command Line](###Running-tests-via-Command-Line "Command Line")
-2. [Web Browser](###Running-tests-via-Web-Browser "Web Browser")
-3. [Selenium Test Library](###Running-tests-via-Selenium-Test-Library "Selenium Test Library")
-4. [Virtual Machine](###Debugging-and-troubleshooting-via-Sauce-Labs-Virtual-Machine "Virtual Machine") - Debugging and Troubleshooting
+1. [Command Line](###running-tests-via-command-line "Command Line")
+2. [Web Browser](###running-tests-via-web-browser "Web Browser")
+3. [Selenium Test Library](###running-tests-via-selenium-test-library "Selenium Test Library")
+4. [Virtual Machine](###debugging-and-troubleshooting-via-sauce-labs-virtual-machine "Virtual Machine") - Debugging and Troubleshooting
 
 ##### [back to top](#sauce-labs-demonstration "Home")
 ---
 
 ### Running tests via Command Line
 
-1. Please refer to the following repository [polymer-sauce-labs-demo](##Example-Sauce-Labs-Projects "Example Sauce Labs Projects") for download and experimentation.
-2. Complete required [local environment setup](##Required-Local-Environment-Setup "Local Environment Setup") steps.
+1. Please refer to the following repository [polymer-sauce-labs-demo](##example-sauce-labs-projects "Example Sauce Labs Projects") for download and experimentation.
+2. Complete required [local environment setup](##required-local-environment-setup "Local Environment Setup") steps.
 3. Run `npm install -g web-component-tester`
 4. Run `bower install --save-dev web-component-tester`
 5. Save the following web component test json configuration file contents in the root directory of the web project.
@@ -247,11 +247,11 @@ For Polymer polyfill information, please see [Test with polyfills](https://www.p
 
 ### Running tests via Selenium Test Library
 * **CSharp NUnit Selenium Example**: Class Constructor Initialization.
-* Please refer to the following repository [SeleniumSauceLabsDemo](##Example-Sauce-Labs-Projects "Example Sauce Labs Projects") for download and experimentation.
+* Please refer to the following repository [SeleniumSauceLabsDemo](##example-sauce-labs-projects "Example Sauce Labs Projects") for download and experimentation.
 * See NETCore SeleniumSauceLabsDemo for details.
 * See [Example Selenium Scripts for Automated Website Tests](https://wiki.saucelabs.com/display/DOCS/Example+Selenium+Scripts+for+Automated+Website+Tests) for setting up test classes with other languages.
 
-```cs
+```csharp
 public class SeleniumExample
 {
     private readonly IWebDriver _webDriver;
@@ -301,7 +301,7 @@ public class SeleniumExample
   * To run tests locally, local drivers for each browser will need to be called locally on the tester's machine (please refer to the `.\Drivers` folder for this repository).
   * Please full project for complete working implementation.
 
-    ```cs
+    ```csharp
     [TestFixture(Browser.Chrome, "Windows 8.1")]
     [TestFixture(Browser.Firefox, "Linux")]
     [TestFixture(Browser.InternetExplorer, "Windows 7")]
