@@ -58,7 +58,7 @@ Sauce Labs is a continuous cloud testing platform for web and mobile application
 ## When should you run tests with it?
 
 * During active test-driven development tests are ran locally to preserve time and Sauce Labs usage.
-* Newly written tests individually should point at Sauce Labs to be ran by the developer ideally just before submitting it for code review.
+* Newly written tests individually should point at Sauce Labs to be run by the developer ideally just before submitting it for code review.
 * CI/CD architecture should reasonably run all tests through Sauce Labs against and integration branch before it reaches QA.
 * Whenever, but keep Sauce Labs usage in mind.
 
@@ -101,7 +101,7 @@ The four most common ways to run tests via Sauce Labs.
 
 ---
 CLI Notes
-  * Sauce Labs tests are ran remotely when `"sauce"` section of [wct.config.json](###Minimum-web-component-test-configuration-file-example) is enabled `true`.
+  * Sauce Labs tests are run remotely when `"sauce"` section of [wct.config.json](###Minimum-web-component-test-configuration-file-example) is enabled `true`.
   * `--expanded` prints a friendly one-liner status of the test(s).
   * User credentials are unnecessary as command line arguments when credentials environment variables are set (best practice).
   * Use `--help` for additional arguments and usages.
@@ -240,7 +240,7 @@ For Polymer polyfill information, please see [Test with polyfills](https://www.p
 4. Run `polymer serve`
 5. Paste the following line in your desired browser to test.
     * `localhost:8080/polymer-sauce-labs-demo/test/polymer-sauce-labs-demo_test.html`
-    * The sample above runs basic-test.html twice, once using native APIs (where the browser supports them), and once using using all of the polyfills.
+    * The sample above runs basic-test.html twice, once using native APIs (where the browser supports them), and once using all of the polyfills.
 
 ##### [back to How do you run tests with it?](##How-do-you-run-tests-with-it?)
 ---
@@ -297,7 +297,7 @@ public class SeleniumExample
   * Modify the actual `userName`, `password`, yourAppUrl accordingly.
   * Selenium code examples are not asynchronous, but the `NUnit` test library used in this example can be configured to call each configuration asynchronously.
   * Overall, regardless of the language used to call Sauce Labs, the test execution or test manager configured should call each test or suite asynchronously.
-  * Based on my initial research, Sauce Labs will create a new single use virtual machine for each test or suite of tests, but the test runner must send Sauce Labs these tests an isolated asynchronous manner.
+  * Based on my initial research, Sauce Labs will create a new single-use virtual machine for each test or suite of tests, but the test runner must send Sauce Labs these tests an isolated asynchronous manner.
   * To run tests locally, local drivers for each browser will need to be called locally on the tester's machine (please refer to the `.\Drivers` folder for this repository).
   * Please full project for complete working implementation.
 
