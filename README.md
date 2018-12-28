@@ -116,17 +116,16 @@ CLI Notes
 
 3. For Windows machine users, see [How to set Windows environment variables](###How-to-set-Windows-environment-variables).
 
-
-
-    | Key                                          | Value                                                         |
-    |----------------------------------------------|---------------------------------------------------------------|
-    | `SAUCE_USERNAME`                             |  mySauceLabsUserName_                                         |
-    | `SAUCE_ACCESS_KEY`                           |  00000000-0000-0000-0000-000000000000                         |
-    | `LAUNCHPAD_BROWSERS`                         |  chrome, firefox, ie, opera                                   |
-    | `LAUNCHPAD_CHROME`                           |  C:\Program Files\Google\Chrome\Application\chrome.exe        |
-    | `LAUNCHPAD_FIREFOX`                          |  C:\Program Files\Mozilla Firefox\firefox.exe                 |
-    | `LAUNCHPAD_IE`                               |  C:\Windows\explorer.exe                                      |
-    | `LAUNCHPAD_OPERA`                            |  C:\Program Files\Opera\00.0.0000.00\opera.exe                |
+    | Key                                          | Value                                                           |
+    |----------------------------------------------|-----------------------------------------------------------------|
+    | `SAUCE_USERNAME`                             | mySauceLabsUserName_                                            |
+    | `SAUCE_ACCESS_KEY`                           | 00000000-0000-0000-0000-000000000000                            |
+    | `LAUNCHPAD_BROWSERS`                         | chrome, edge, firefox, ie, opera                                |
+    | `LAUNCHPAD_CHROME`                           | C:\Program Files\Google\Chrome\Application\chrome.exe           |
+    | `LAUNCHPAD_EDGE`                             | C:\Windows\SystemApps\Microsoft.MicrosoftEdge\MicrosoftEdge.exe |
+    | `LAUNCHPAD_FIREFOX`                          | C:\Program Files\Mozilla Firefox\firefox.exe                    |
+    | `LAUNCHPAD_IE`                               | C:\Windows\explorer.exe                                         |
+    | `LAUNCHPAD_OPERA`                            | C:\Program Files\Opera\00.0.0000.00\opera.exe                   |
 
 4. For Mac OS/Linux machine users:
     * Please refer to [Sauce Labs Authentication Credentials](https://wiki.saucelabs.com/display/DOCS/Best+Practice%3A+Use+Environment+Variables+for+Authentication+Credentials)
