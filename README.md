@@ -120,13 +120,13 @@ CLI Notes
 
     | Key                                          | Value                                                         |
     |----------------------------------------------|---------------------------------------------------------------|
-    | `SAUCE_USERNAME`                             | _mySauceLabsUserName_                                         |
-    | `SAUCE_ACCESS_KEY`                           | _00000000-0000-0000-0000-000000000000_                        |
-    | `LAUNCHPAD_BROWSERS`                         | _chrome, firefox, ie, opera_                                  |
-    | `LAUNCHPAD_CHROME`                           | _C:\Program Files\Google\Chrome\Application\chrome.exe_       |
-    | `LAUNCHPAD_FIREFOX`                          | _C:\Program Files\Mozilla Firefox\firefox.exe_                |
-    | `LAUNCHPAD_IE`                               | _C:\Windows\explorer.exe_                                     |
-    | `LAUNCHPAD_OPERA`                            | _C:\Program Files\Opera\00.0.0000.00\opera.exe_               |
+    | `SAUCE_USERNAME`                             |  mySauceLabsUserName_                                         |
+    | `SAUCE_ACCESS_KEY`                           |  00000000-0000-0000-0000-000000000000                         |
+    | `LAUNCHPAD_BROWSERS`                         |  chrome, firefox, ie, opera                                   |
+    | `LAUNCHPAD_CHROME`                           |  C:\Program Files\Google\Chrome\Application\chrome.exe        |
+    | `LAUNCHPAD_FIREFOX`                          |  C:\Program Files\Mozilla Firefox\firefox.exe                 |
+    | `LAUNCHPAD_IE`                               |  C:\Windows\explorer.exe                                      |
+    | `LAUNCHPAD_OPERA`                            |  C:\Program Files\Opera\00.0.0000.00\opera.exe                |
 
 4. For Mac OS/Linux machine users:
     * Please refer to [Sauce Labs Authentication Credentials](https://wiki.saucelabs.com/display/DOCS/Best+Practice%3A+Use+Environment+Variables+for+Authentication+Credentials)
